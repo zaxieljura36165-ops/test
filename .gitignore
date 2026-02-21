@@ -1,0 +1,14 @@
+# 模型文件（太大，不适合上传 GitHub）
+*.pth
+*.pt
+*.pkl
+*.h5
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 环境
+.env
+.venv/

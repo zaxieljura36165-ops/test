@@ -1,0 +1,67 @@
+# 多车辆任务卸载系统 - 性能评估报告
+生成时间: 2026-02-02 02:02:50
+
+## 整体性能评估
+- 训练完成: 是
+- 收敛达成: 否
+- 性能等级: A
+
+## Reward Analysis
+- mean_reward: -11185.0915
+- std_reward: 23411.3682
+- min_reward: -135332.4316
+- max_reward: 1840.4420
+- final_reward: 1331.9076
+- improvement: 79703.4571
+- convergence_episode: 2000
+
+## Length Analysis
+- mean_length: 122.5580
+- std_length: 11.6492
+- min_length: 101
+- max_length: 178
+- stability: 0.9132
+
+## Success Analysis
+- mean_success_rate: 0.9989
+- std_success_rate: 0.0040
+- min_success_rate: 0.9474
+- max_success_rate: 1.0000
+- final_success_rate: 1.0000
+- improvement: 0.0000
+
+## Objective Analysis
+- mean_objective: 0.0000
+- std_objective: 0.0000
+- min_objective: 0.0000
+- max_objective: 0.0000
+- final_objective: 0.0000
+- improvement: 0.0000
+
+## 训练统计摘要
+- episode_rewards: 2000 个数据点
+  - 平均值: -11185.0915
+  - 标准差: 23411.3682
+  - 最小值: -135332.4316
+  - 最大值: 1840.4420
+- episode_lengths: 2000 个数据点
+  - 平均值: 122.5580
+  - 标准差: 11.6492
+  - 最小值: 101.0000
+  - 最大值: 178.0000
+- success_rates: 2000 个数据点
+  - 平均值: 0.9989
+  - 标准差: 0.0040
+  - 最小值: 0.9474
+  - 最大值: 1.0000
+- objective_values: 2000 个数据点
+  - 平均值: 0.0000
+  - 标准差: 0.0000
+  - 最小值: 0.0000
+  - 最大值: 0.0000
+
+## 改进建议
+- 增加训练轮数或调整学习率以促进收敛
+- 可以尝试不同的奖励函数设计
+- 考虑增加经验回放缓冲区大小
+- 尝试不同的探索策略
